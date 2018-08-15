@@ -229,7 +229,7 @@ const IndicatorConfigView = new Lang.Class({
       }
     };
 
-    let options = [undefined, 0, 1, 2, 3, 4, 5].map(
+    let options = [undefined, 0, 1, 2, 3, 4, 5, 6, 7, 8].map(
       (v) => ({label: getLabel(v), value: v, active: (v === preset)})
     );
 

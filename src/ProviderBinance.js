@@ -10,9 +10,9 @@ const Api = new Lang.Class({
 
   apiName: "Binance",
 
-  currencies: ['USDT'],
+  currencies: ['USDT', 'BTC'],
 
-  coins: ['BTC', 'LTC', 'ETH', 'BNB', 'BCC', 'NEO'],
+  coins: ['BTC', 'LTC', 'ETH', 'BNB', 'BCC', 'NEO', 'TRX', 'XRP'],
 
   /* I couldn't find any limitations
    *
